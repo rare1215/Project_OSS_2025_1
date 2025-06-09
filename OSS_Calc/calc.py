@@ -10,7 +10,7 @@ class Calculator:
         self.expression = ""
 
         # 입력창
-        self.entry = tk.Entry(root, font=("Arial", 24), justify="right")
+        self.entry = tk.Entry(root, font=("Arial", 24), justify="right",fg="#2596be")
         self.entry.pack(fill="both", ipadx=8, ipady=15, padx=10, pady=10)
 
         # 버튼 생성
